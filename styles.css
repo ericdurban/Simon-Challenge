@@ -1,3 +1,6 @@
+/* ===============
+    MAIN BODY
+=================*/
 body {
   text-align: center;
   background-color: #011F3F;
@@ -10,11 +13,19 @@ body {
   color: #FEF2BF;
 }
 
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+
+/* ===============
+      BUTTONS
+=================*/
 .container {
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
 .btn {
@@ -24,11 +35,6 @@ body {
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
-}
-
-.game-over {
-  background-color: red;
-  opacity: 0.8;
 }
 
 .red {
